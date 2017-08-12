@@ -8,7 +8,7 @@ class FileUpload extends Component {
 
 		this.state = {
 	      uploadValue: 0
-	    }
+	    };
 	}
 
 	render (){

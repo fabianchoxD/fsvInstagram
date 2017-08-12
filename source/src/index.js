@@ -4,7 +4,7 @@ import firebase from 'firebase';
 import './index.css';
 import App from './App';
 //import 'bootstrap/dist/css/bootstrap.css';
-import registerServiceWorker from './registerServiceWorker';
+//import registerServiceWorker from './registerServiceWorker';
 
 firebase.initializeApp({
 	apiKey: "AIzaSyAY4zwuaTvfDCKNJKrCi9eb7D5kaaJl1B8",
@@ -16,4 +16,4 @@ firebase.initializeApp({
 });
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+//registerServiceWorker();

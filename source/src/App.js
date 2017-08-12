@@ -39,6 +39,7 @@ class App extends Component {
 
     firebase.auth().signInWithPopup(provider)
       .then(result => console.log(`${result.user.email} ha iniciado sesión`))
+      .then(result=>  window.location.reload())
       .catch(error => console.log(`Error ${error.code}: ${error.message}`));
   }
 
@@ -82,7 +83,7 @@ class App extends Component {
     //Si usuario == logged 
 
     if(this.state.user){
-      return (
+      return (       
 
         <div className="container">
 
