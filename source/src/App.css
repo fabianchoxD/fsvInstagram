@@ -1,0 +1,44 @@
+body{background: #fafafa}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 115px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.col-md-6{
+  background: #FFF;
+  border: 1px solid #e6e6e6;
+  border-radius: 1%;
+  margin-top: 3%;
+}
+
+#header_logo {display:inline-block; margin-right: 0.7%; font-size: 2em; padding-top: 1%; } 
+#header_text {display:inline-block; font-size: 2em; font-family: verdana; padding-top: 1%; } 
+
+#first {display: -webkit-inline-box;}
+
+.progress-bar{
+  color: #000;
+}
+
+#second {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: -webkit-inline-box;
+  margin-left: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
